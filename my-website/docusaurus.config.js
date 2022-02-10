@@ -39,17 +39,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'TPP',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'mastercard Logo',
+          src: 'img/mastercard_logo.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Transaction Processing',
+            label: 'Transaction Processing Platform',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
