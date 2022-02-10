@@ -42,7 +42,7 @@ const config = {
         title: 'TPP',
         logo: {
           alt: 'mastercard Logo',
-          src: 'img/mastercard_logo.svg',
+          src: 'img/Mastercard-Logo.wine.svg',
         },
         items: [
           {
