@@ -39,7 +39,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'TPP',
+        title: 'mastercard',
         logo: {
           alt: 'mastercard Logo',
           src: 'img/Mastercard-Logo.wine.svg',
@@ -52,7 +52,7 @@ const config = {
             label: 'Transaction Processing Platform',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/e076532/docusaurus-example',
             label: 'GitHub',
             position: 'right',
           },
@@ -60,30 +60,17 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'mastercard Logo',
+          src: 'img/Mastercard-Logo.wine.svg',
+        },		
         links: [
-          {
+          {			  
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'TPP',
                 to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
@@ -92,12 +79,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/e076532/docusaurus-example',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2022 Brighterion.`,
       },
       prism: {
         theme: lightCodeTheme,
