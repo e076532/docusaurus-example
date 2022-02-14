@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Transaction Processing Platform Intro
+# TPP Intro
 
 Introduction
 

@@ -11,10 +11,17 @@ const config = {
   baseUrl: '/docusaurus-example/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',
   organizationName: 'e076532', // Usually your GitHub org/user name.
   projectName: 'docusaurus-example', // Usually your repo name.
   trailingSlash: false,
+  //headerLinks: [
+   // {
+    //  doc: "my_home",
+    //  href: "/docs",
+    // label: "Docs",
+    //},
+  //], 
 
   presets: [
     [
@@ -22,7 +29,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-		  //routeBasePath: '/',
+		      //routeBasePath: '/',
+		  //path: 'docs',
+		  //routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/e076532/docusaurus-example/',
